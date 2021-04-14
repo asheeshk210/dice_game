@@ -1,0 +1,85 @@
+body{
+    /* background-image: url("texture-1444067_1920.jpeg"); */
+    /* background: tomato; */
+    background: url('texture-1444067_1920.jpg');
+    font-family: 'Lobster', cursive;
+    
+    text-align: center;
+}
+.container{
+    background: #2f2f2e40;
+    border-radius: 2%;
+    min-height: 80vh;
+    margin: 4% 5% 7% 10%;
+}
+h1{
+    font-size: 600%;
+}
+.gameRow{
+    padding-top: 5%;
+}
+
+    
+    
+.roll {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.roll {
+   margin: 10px;
+   padding: 5px 35px;
+   text-align: center;
+   /* text-transform: uppercase; */
+   transition: 0.5s;
+   background-size: 150% auto;
+   color: black;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   /* display: block; */
+   border: none;
+   outline: none;
+   font-size: 300%;
+ }
+
+ .roll:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   border: none;
+   outline: none;
+ }
+ 
+.dice_img{
+    width: 70%;
+    height: 60%;
+    display: none;
+    padding-left: 32%;
+    
+}
+
+.win{
+    font-size: 400%;
+    display: none;
+    /* padding-top: 20%; */
+    /* display: none; */
+}
+.diceBox{
+    text-align: center;
+    /* align-items: center; */
+    /* padding-left: 10%; */
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 50%;
+    
+}
+h3{
+    text-align: center;
+}
+.emoji{
+    display: none;
+    text-align: center;
+    align-items: center;
+    
+    /* padding-left: 25%; */
+    margin: auto;
+    
+    
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Dice Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Dice Game</h1>
+        <div class="row gameRow">
+            
+            <div class="col-sm-4 diceBox">
+                <img src="dice1.png" alt="dice_1" class="dice_img" id="dice_p1_1" >
+                <img src="dice2.png" alt="dice_1" class="dice_img" id="dice_p1_2">
+                <img src="dice3.png" alt="dice_1" class="dice_img" id="dice_p1_3">
+                <img src="dice4.png" alt="dice_1" class="dice_img" id="dice_p1_4">
+                <img src="dice5.png" alt="dice_1" class="dice_img" id="dice_p1_5">
+                <img src="dice6.png" alt="dice_1" class="dice_img" id="dice_p1_6">
+                <h3>Player 1</h3><br>
+                <img src="istockphoto-1041299888-170667a-removebg-preview.png" alt="" id="p1_win_happy" width="30%" height="30%" class="emoji">
+                <img src="sad-emoji.png" alt="" id="p1_lost_sad" width="30%" height="30%" class="emoji">
+                  
+            </div>
+            <div class="col-sm-4 ">
+                <button type="button" class="roll" onclick="randomNumber()">Roll</button>
+              
+                <h2 class="win" id="result_p1">Player 1 <br>Win</h2> 
+              <h2 class="win" id="result_p2">Player 2 <br> Win</h2>
+                <h2 class="win" id="result_p3">Match <br>Draw</h2>
+                
+            </div>
+            <div class="col-sm-4 diceBox">
+                <img src="dice1.png" alt="dice_1" class="dice_img" id="dice_p2_1">
+                <img src="dice2.png" alt="dice_1" class="dice_img" id="dice_p2_2">
+                <img src="dice3.png" alt="dice_1" class="dice_img" id="dice_p2_3">
+                <img src="dice4.png" alt="dice_1" class="dice_img" id="dice_p2_4">
+                <img src="dice5.png" alt="dice_1" class="dice_img" id="dice_p2_5">
+                <img src="dice6.png" alt="dice_1" class="dice_img" id="dice_p2_6">
+                <h3>Player 2</h3><br> 
+                <img src="istockphoto-1041299888-170667a-removebg-preview.png" alt="" id="p2_win_happy" width="30%" height="30%" class="emoji">
+                <img src="sad-emoji.png" alt="" id="p2_lost_sad" width="30%" height="30%" class="emoji">  
+            </div>
+            
+        </div>
+    </div>
+    <!-- <script>
+        function randomNumber(){
+            alert('hi');
+        }
+    </script> -->
+    <script src="app.js"></script>
+    <!-- <script src="app.js" type="javascript"></script> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
